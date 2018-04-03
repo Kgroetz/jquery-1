@@ -32,6 +32,20 @@ function changeHeadline () {
   return rgrg
 }
 
+function logHeadline () {
+  var log1= $('h1').text()
+  console.log(log1)
+  var log2= $('h2').text()
+  console.log(log2)
+}
+
+function swapHeadlines (){
+  var first= $('h1').text()
+  var second= $('h2').text()
+  var h1s= $('h1').text(second)
+  var h2s= $('h2').text(first)
+}
+
 </script>
 
 </html>
