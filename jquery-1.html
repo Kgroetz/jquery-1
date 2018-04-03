@@ -2,6 +2,13 @@
 <html>
 <head>
   <title>jQuery test page</title>
+
+<style>
+.highlight{
+  color: yellow;
+}
+</style>
+
 </head>
 <body>
   <h1>Lorem ipsum</h1>
@@ -55,6 +62,15 @@ function undo (){
   $("h2").show()
   $("h3").show()
 }
+
+function highlightByline (){
+  $(".byline").addClass("highlight")
+}
+
+function unHighlightByline (){
+  $(".byline").removeClass("highlight")
+}
+
 </script>
 
 </html>
